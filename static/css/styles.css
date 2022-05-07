@@ -1,0 +1,117 @@
+html {
+    background: linear-gradient(to left, #EFEFEF 50%, #ffffff 50%);
+}
+
+/* to left means colors from right to left ==> grey to white */
+
+
+/* --------- First Section ------------*/
+.section-first {
+    padding: 20px;
+}
+
+.section-first-card {
+    width: 100%;
+    margin-top: 700px;
+}
+
+.en-intro {
+    float: left;
+    width: 45%;
+    height: 100%;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #423F3E;
+
+}
+
+.cn-intro {
+    float: right;
+    width: 45%;
+    height: 100%;
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    color: #423F3E;
+}
+
+/* Scroller styling */
+.en-intro-container-list{
+    height: 1.2em;
+    line-height: 1.2em;
+    /*position: absolute;*/
+    overflow: hidden;
+    width: 15em;
+    float: left;
+}
+
+.cn-intro-container-list{
+    height: 1.2em;
+    line-height: 1.2em;
+    font-size: 30px;
+    /*position: absolute;*/
+    overflow: hidden;
+    width: 15em;
+    float: right;
+}
+
+
+.scroll-list > span {
+    position: relative;
+    top: 0;
+    animation: slide 8s infinite;
+    font-weight: bold;}
+
+/* --------- First Section ------------*/
+.section-second {
+    padding: 20px;
+}
+
+.section-second-card {
+    width: 100%;
+    margin-top: 1200px;
+}
+
+
+
+@keyframes slide{
+    0%{
+        top: 0;
+    }
+    20%{
+        top: -1.2em;
+    }
+    40%{
+        top: -2.4em;
+    }
+    60%{
+        top: -3.6em;
+    }
+    80%{
+        top: -4.8em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
